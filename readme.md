@@ -3,7 +3,8 @@
 - use the vs-code env (see launch.json): make sure you have justmycode=false
 - create a env with the requirements.txt
 - using the example.html: works well
-- using example_bug.html (see the code): add a char
+- using example_bug.html (see the code)
+- **add a char**
 - seems that this char 🔄 is the issue but this one 💾 works
 
 this trigger the following error
