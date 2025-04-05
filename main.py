@@ -11,12 +11,12 @@ editor = ui.codemirror(value=initial_content, language='html').classes('w-full')
 
 # Save file button
 def save():
-    html_file.write_text(editor.value)
+    html_file.write_text(editor.value, encoding="utf8")
     ui.notify('HTML saved!')
 
 # Reload file button
 def load():
-    editor.value = html_file.read_text()
+    editor.value = html_file.read_text(encoding="utf8")
     ui.notify('HTML loaded!')
 
 with ui.row().classes('mt-4'):

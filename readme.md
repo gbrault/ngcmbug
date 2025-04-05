@@ -25,3 +25,8 @@ Traceback (most recent call last):
     raise ValueError('Cannot apply change set to a document with the wrong length')
 ValueError: Cannot apply change set to a document with the wrong length
 ```
+
+# Fixed by 
+
+- https://github.com/evnchn/nicegui/tree/codemirror-utf16-bugfix
+- many thnaks to https://github.com/evnchn

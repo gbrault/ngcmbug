@@ -1,1 +1,2 @@
-nicegui
+#nicegui
+git+https://github.com/evnchn/nicegui.git@codemirror-utf16-bugfix#egg=nicegui
