@@ -7,7 +7,7 @@
 - **add a char**
 - seems that this char 🔄 is the issue but this one 💾 works
 
-this trigger the following error
+**add a char** triggers the following error
 
 ```
 Cannot apply change set to a document with the wrong length
