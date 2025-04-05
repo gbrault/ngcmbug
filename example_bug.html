@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✅ Welcome to the Example Page</h1>
+        <p>🔄 This is a simple HTML file with some styling and JavaScript interaction.</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message" style="margin-top: 20px;"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').textContent = 'Hello! You clicked the button.';
+        }
+    </script>
+</body>
+</html>
